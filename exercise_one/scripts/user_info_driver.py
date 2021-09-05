@@ -2,7 +2,7 @@
 #!/usr/bin/python
 import rospy
 from exercise_one.msg import raw_data
-import random
+
 
 def personalData():
     #Creating a Node
