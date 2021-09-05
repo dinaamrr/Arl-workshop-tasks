@@ -9,7 +9,7 @@ def personalData():
     rospy.init_node("data_publisher_node",anonymous=True)
     #Creating a publisher topic
     pub=rospy.Publisher("data_publisher_topic", raw_data,queue_size=10)
-    rate=rospy.Rate(1) #10Hz
+    rate=rospy.Rate(1) #1Hz
 
     my_data=raw_data()
 
