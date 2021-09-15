@@ -1,0 +1,10 @@
+float64 velocity
+float64 delta
+float64 beta
+float64 xc_dot
+float64 ycdot
+float64 theta_dot
+float64 delta_dot
+float64 xc
+float64 yc
+float64 theta
